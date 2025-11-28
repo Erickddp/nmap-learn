@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { getProgress } from '../utils/storage';
 import { achievements } from '../utils/achievements';
 import { Certificate } from '../components/Certificate';

@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { getProgress } from '../utils/storage';
+// import { getProgress } from '../utils/storage';
 
 interface CertificateProps {
   onClose: () => void;
@@ -8,7 +8,7 @@ interface CertificateProps {
 export function Certificate({ onClose }: CertificateProps) {
   const [name, setName] = useState('');
   const certificateRef = useRef<HTMLDivElement>(null);
-  const progress = getProgress();
+  // const progress = getProgress();
 
   const handleDownload = () => {
     if (!certificateRef.current) return;

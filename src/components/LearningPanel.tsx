@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getFlagExplanation, flags } from '../config/flags';
+import { getFlagExplanation } from '../config/flags';
 
 interface LearningPanelProps {
   lastCommand: string;
